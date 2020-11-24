@@ -43,6 +43,23 @@
 安装：
 ```sh
 pip install -r requirements.txt
+pip批量导出包含环境中所有组件的requirements.txt文件
+
+pip freeze > requirements.txt
+
+pip批量安装requirements.txt文件中包含的组件依赖
+
+pip install -r requirements.txt
+
+
+conda批量导出包含环境中所有组件的requirements.txt文件
+
+conda list -e > requirements.txt
+
+
+conda批量安装requirements.txt文件中包含的组件依赖
+
+conda install --yes --file requirements.txt
 ```
 
 ## 使用教程
