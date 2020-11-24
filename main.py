@@ -69,7 +69,7 @@ if __name__ == '__main__':
     asst = Assistant()  # 初始化
     asst.login_by_QRcode()  # 扫码登陆
     # asst.buy_item_in_stock(sku_ids=sku_ids, area=area, wait_all=False, stock_interval=5)  # 根据商品是否有货自动下单
-    asst.submit_order_by_time(buy_time='2020-11-24 18:32:00.000', retry=4, interval=5)  # 根据商品是否有货自动下单
+    asst.submit_order_by_time(buy_time='2020-11-24 21:52:00.000', retry=4, interval=5)  # 根据商品是否有货自动下单
     # 6个参数：
     # sku_ids: 商品id。可以设置多个商品，也可以带数量，如：'1234' 或 '1234,5678' 或 '1234:2' 或 '1234:2,5678:3'
     # area: 地区id
